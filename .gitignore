@@ -1,0 +1,58 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+db.sqlite3
+*.sqlite3
+
+# Migrations (optional: you may want to keep migrations in version control)
+# Uncomment if you want to ignore migrations
+core/migrations/          
+*/migrations/
+
+# Environment variables
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Static files (if collected)
+staticfiles/
+static/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# Django secret key file (if used)
+secret_key.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Others
+*.swp
+*.swo
